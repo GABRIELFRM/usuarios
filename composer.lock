@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ad5b8614d0a4248a62c2e18a1152cb96",
+    "packages": [
+        {
+            "name": "lion/database",
+            "version": "v8.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lion-packages/database.git",
+                "reference": "f78893553f4b0ba71b78de0667503e4e73e2850a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lion-packages/database/zipball/f78893553f4b0ba71b78de0667503e4e73e2850a",
+                "reference": "f78893553f4b0ba71b78de0667503e4e73e2850a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LionDatabase\\": "src/LionDatabase/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Package in charge of the generation and execution of processes with databases",
+            "support": {
+                "issues": "https://github.com/lion-packages/database/issues",
+                "source": "https://github.com/lion-packages/database/tree/v8.9.0"
+            },
+            "time": "2023-08-08T18:39:01+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
